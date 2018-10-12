@@ -1,0 +1,71 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    position: relative;
+    top: 0;
+    height: 6em;
+    background: lightblue;
+}
+
+header h1 {
+    position: absolute;
+    top: 0;
+    left: 1em;
+    padding: 10px;
+    background: yellow;
+}
+
+header img {
+    position: absolute;
+    top: 21px;
+    right: 1em;
+    padding: 10px;
+    background: red;
+}
+
+#wrapper {
+    height: 90%;
+    background: violet;
+}
+
+main {
+    position: absolute;
+    top: 6em;
+    margin-left: 13em;
+    padding: 1em;
+    background: lightgreen
+}
+
+nav {
+    position: absolute;
+    top: 6em;
+    width: 11em;
+    padding: 1em;
+    background: pink;
+}
+
+nav img {
+    max-width: 100%;
+}
+
+.menuitem {
+    font-size: small;
+    background: gold
+}
+
+footer {
+    padding: 1em;
+    text-align: center;
+    background: lightcoral;
+}
+
+footer.updated {
+    font-size: small;
+    font-style: italic;
+}

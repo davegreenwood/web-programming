@@ -1,0 +1,70 @@
+/* acheive similar result with the flex box */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: lightblue;
+}
+
+header h1 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    background: yellow;
+}
+
+header img {
+    float: right;
+    max-width: 100%;
+    padding: 10px;
+    background: red;
+}
+
+#wrapper {
+    display: flex;
+    align-items: top;
+    background: violet;
+}
+
+main {
+    padding: 1em;
+    height: 100%;
+    background: lightgreen
+}
+
+nav {
+    float: left;
+    width: 11em;
+    padding: 1em;
+    height: 100%;
+    background: pink;
+}
+
+nav img {
+    max-width: 100%;
+}
+
+.menuitem {
+    font-size: small;
+    background: gold
+}
+
+footer {
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    background: lightcoral;
+}
+
+footer.updated {
+    font-size: small;
+    font-style: italic;
+}
