@@ -15,3 +15,4 @@ You should validate the CSS rules you have written by using the web page at:
 
 * [Lab Week 2](lab-week-2/README.md)
 * [Lab Week 3](lab-week-3/README.md)
+* [Lab Week 4](lab-week-4/README.md)

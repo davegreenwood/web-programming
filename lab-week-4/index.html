@@ -6,6 +6,18 @@
     <!-- the lines above specify all the HTML definitions you'll need for validation -->
     <link type="text/css" rel="stylesheet" href="style-flex.css">
     <title>Alice Turing Homepage</title>
+    <script>
+    function imgUpdate() {
+        // split the path and pop the last item - which is the file name
+        var img = document.getElementById('nav-img'
+                                        ).src.split('/').pop();
+        if (img === 'dog-selfie.png') {
+            document.getElementById('nav-img').src = 'cat-selfie.png'
+        }else{
+            document.getElementById('nav-img').src = 'dog-selfie.png'
+        }
+    }
+    </script>
 </head>
 
 <!-- the body part of the HTML document -->
@@ -25,7 +37,8 @@
                 <li class="menuitem"><a href="#links">Useful Links</a></li>
                 <li class="menuitem"><a href="#contact">Contact</a></li>
             </ol>
-            <img src="cat-selfie.jpg" alt="selfie image">
+            <img id="nav-img" src="cat-selfie.png" alt="selfie image">
+            <button type="button" onclick="imgUpdate()"> Another Image</button>
         </nav>
         <main>
             <h2 id="introduction"> Introduction </h2>
