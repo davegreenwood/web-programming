@@ -1,4 +1,4 @@
-# Web Programming CMP-4011A-18
+# Web Programming
 
 Solutions to labs. Covering HTML, CSS python, Flask.
 
@@ -16,3 +16,4 @@ You should validate the CSS rules you have written by using the web page at:
 * [Lab Week 2](lab-week-2/README.md)
 * [Lab Week 3](lab-week-3/README.md)
 * [Lab Week 4](lab-week-4/README.md)
+* [Lab Week 5](lab-week-5/README.md)
