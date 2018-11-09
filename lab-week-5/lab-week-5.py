@@ -1,8 +1,6 @@
-"""Solutions to Lab week 5"""
 import csv
 
 pi = 3.14159265358979323846264338327950288419716939937510
-
 
 def default():
     print('This is the default output... did you enter the correct input?')
@@ -58,15 +56,15 @@ def bmi():
     w = float(input('Enter weight in kg: '))
     h = float(input('Enter height in m: '))
     bmi = w/h**2
-    s = f'{bmi:0.2f}'
-    if bmi <= 20:
+    s = '{:0.2f}'.format(bmi)
+    if bmi < 20:
         print('You are underweight', s)
-    elif bmi >= 30:
-        print('You are obese', s)
-    elif 25 < bmi < 30:
+    elif bmi < 25:
+        print('You are normal', s)
+    elif bmi < 30:
         print('You are overweight', s)
     else:
-        print('You are normal', s)
+        print('You are obese', s)
 
 
 def months():
